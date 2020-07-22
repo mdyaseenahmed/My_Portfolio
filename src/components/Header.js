@@ -80,7 +80,7 @@ class Header extends Component {
 					           	
 
 		            			<NavItem>
-				            			<NavLink className="Resume-btn" onClick={this.toggleNav}>
+				            			<NavLink className="nav-link" onClick={this.toggleNav}>
 				            				Resume
 				            			</NavLink>
 				            	</NavItem>
@@ -97,7 +97,7 @@ class Header extends Component {
 		          		<h1> Md Yaseen Ahmed</h1>
 		          		<div className="auto-typing">
 			          		<Typical 
-			          			steps={['Student', 1200, 'FreeLancer', 1200, 'Web Developer', 1200]}
+			          			steps={['Student', 1200, 'FreeLancer', 1200, 'Web Developer', 1200, 'Tech Enthusiast', 1200]}
 		        				loop={Infinity}
 			          		/>
 		          		</div>
