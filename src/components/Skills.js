@@ -15,6 +15,10 @@ import java from '../images/java.png';
 import github from '../images/github.png';
 import git from '../images/git.png';
 import vscode from '../images/vscode.png';
+import php from '../images/php.png';
+import netlify from '../images/netlify.png';
+import linux from '../images/linux.png';
+import DS from '../images/DS.png';
 import { Column, Row } from 'simple-flexbox';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
@@ -42,7 +46,7 @@ function Skills() {
 		                        <img className="logo" src={js} alt="js"></img>
 		                    </Column>
 		                    <Column flexGrow={1} horizontal='center'>
-		                        <img className="logo" src={react} alt="react"></img>
+		                        <img className="logo" src={react} alt="ReactJS"></img>
 		                    </Column>
 		                </Row>
                 	</Column>
@@ -97,6 +101,24 @@ function Skills() {
 		                    </Column>
 		                    <Column flexGrow={1} horizontal='center'>
 		                        <img className="logo" src={github} alt="github"></img>
+		                    </Column>
+	                    </Row>
+                	</Column>
+                	</Fade>
+					<Fade bottom>
+                	<Column flexGrow={1}>
+	                    <Row wrap vertical='center'>
+		                    <Column flexGrow={1} horizontal='center'>
+		                        <img className="logo" src={php} alt="PHP"></img>
+		                    </Column>
+		                    <Column flexGrow={1} horizontal='center'>
+		                        <img className="logo" src={netlify} alt="Netlify"></img>
+		                    </Column>
+		                    <Column flexGrow={1} horizontal='center'>
+		                        <img className="logo" src={linux} alt="Linux"></img>
+		                    </Column>
+		                    <Column flexGrow={1} horizontal='center'>
+		                        <img className="logo" src={DS} alt="DS"></img>
 		                    </Column>
 	                    </Row>
                 	</Column>
