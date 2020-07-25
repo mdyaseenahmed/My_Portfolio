@@ -15,7 +15,7 @@ function Education() {
 					<Fade bottom>
 					<h3 className="institute"> B.M.S. College Of Engineering, Bangalore </h3>
 					<h5 className="description-01"> B.E (Computer Science & Engineering) </h5>
-					<h6> Currently Pursuing - IV<sup>th</sup> Semester</h6>
+					<h6> Currently Pursuing - IV<sup>th</sup> Semester <span className="fa fa-circle"></span> 9.0 SGPA</h6>
 					<br />
 
 					<h3 className="institute"> K.C.T. Polytechnic, Gulbarga </h3>
