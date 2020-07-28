@@ -13,8 +13,8 @@ function RenderProjectDetails ({ project }) {
 						<CardBody>
 							<CardTitle className="project-title"> {project.title} </CardTitle>
 							<CardText className="project-description"> {project.description} </CardText>
-							<span className="m-btn"> <Button className="Resume-btn" href={project.github} rel="noopner noreferrer" target="_blank"> Github </Button> </span>
-							{project.demo ? (<Button className="Resume-btn" href={project.demo} target="_blank" > Live Demo </Button>) : null}
+							<span className="m-btn"> <Button className="Resume-btn" href={project.github} rel="noopner noreferrer" target="_blank"><span className="fa fa-github"></span> Github </Button> </span>
+							{project.demo ? (<Button className="Resume-btn" href={project.demo} target="_blank" ><span className="fa fa-external-link"></span> Live Demo </Button>) : null}
 						</CardBody>
 					</Card>
 				</Fade>
