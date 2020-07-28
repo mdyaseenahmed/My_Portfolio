@@ -93,8 +93,8 @@ class Header extends Component {
 	          	<div className="row intro">
 	          		<Fade up>
 	          		<div className="col-12 col-sm-12 col-md-7">
-		          		<h3> <span> <img src='/Project_imgs/hi.png' className="animated-hello" alt='hello' /></span> Hi, This is</h3>
-		          		<h1> Md Yaseen Ahmed</h1>
+		          		<h3> <span> <img src='/Project_imgs/hi.png' className="animated-hello" alt='hello' /></span> Hi, My Name is,</h3>
+		          		<h1> Md Yaseen Ahmed.</h1>
 		          		<div className="auto-typing">
 			          		<Typical 
 			          			steps={['Student', 1200, 'FreeLancer', 1200, 'Web Developer', 1200, 'Tech Enthusiast', 1200]}
