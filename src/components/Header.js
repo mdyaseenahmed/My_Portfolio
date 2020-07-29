@@ -30,7 +30,7 @@ class Header extends Component {
 		            <div className="container">
 			            <NavbarToggler onClick={this.toggleNav} />
 			            <Fade left>
-			              <NavbarBrand className="mr-auto navBrand" href="/#top">
+			              <NavbarBrand className="navBrand navbar-brand" href="/#top">
 			              	<h1 className="name"> Md Yaseen Ahmed</h1>
 			              </NavbarBrand>
 			            </Fade>

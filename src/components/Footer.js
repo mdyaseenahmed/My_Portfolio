@@ -50,7 +50,7 @@ function Footer() {
 	        </div>
 	        <div className="foot">
 	        	<h5> Designed & Developed By</h5>
-	        	<h4> Md Yaseen Ahmed</h4>
+	        	<h4> <a href="https://github.com/mdyaseenahmed">Md Yaseen Ahmed</a></h4>
 	        	<h6> &copy; All Rights Reserved - 2020 </h6>
 	        	<div className="to-top">
 		        	<a href="#top">
